@@ -11,7 +11,7 @@
             <v-chip variant="outlined" class="px-6 py-4">Try It Free</v-chip>
           </div>
         </v-col>
-        <v-col class="first2 d-flex d-md-none align-center mt-16">
+        <v-col class="first2 d-flex d-md-none align-center mt-7">
           <div class="logo2">
             <img src="/src/assets/logo.svg" alt="" />
           </div>
@@ -91,10 +91,17 @@
             </v-col>
           </v-col>
         </v-col>
-        <v-col class="filler1 pa-0">
+        <v-col class="filler1 d-none d-md-block pa-0">
           <img
             class="img5"
             src="/src/assets/bg-section-top-desktop-1.svg"
+            alt=""
+          />
+        </v-col>
+        <v-col class="filler12 d-flex d-md-none pa-0">
+          <img
+            class="img52"
+            src="/src/assets/bg-section-top-mobile-1.svg"
             alt=""
           />
         </v-col>
@@ -131,8 +138,11 @@
             </div>
           </v-col>
         </v-col>
-        <v-col class="filler2 pa-0">
-          <img src="/src/assets/bg-section-bottom-desktop-1.svg" alt="" />
+        <v-col class="filler2 d-none d-md-flex pa-0">
+          <img class="img52" src="/src/assets/bg-section-bottom-desktop-1.svg" alt="" />
+        </v-col>
+        <v-col class="filler22 d-flex d-md-none pa-0">
+          <img class="img52" src="/src/assets/bg-section-bottom-mobile-1.svg" alt="" />
         </v-col>
         <v-col class="six pa-0 d-none d-md-flex">
           <v-col cols="6">
@@ -170,8 +180,11 @@
             </div>
           </v-col>
         </v-col>
-        <v-col class="filler3 pa-0">
-          <img src="/src/assets/bg-section-top-desktop-2.svg" alt="" />
+        <v-col class="filler3 d-none d-md-flex pa-0">
+          <img class="img52" src="/src/assets/bg-section-top-desktop-2.svg" alt="" />
+        </v-col>
+        <v-col class="filler3 d-flex d-md-none pa-0">
+          <img class="img52" src="/src/assets/bg-section-top-mobile-2.svg" alt="" />
         </v-col>
         <v-col class="seven d-none d-md-flex flex-wrap pa-0 pl-5">
           <v-col cols="6" class="left3 d-flex flex-column justify-center">
@@ -208,8 +221,11 @@
             </div>
           </v-col>
         </v-col>
-        <v-col class="filler4 pa-0">
-          <img src="/src/assets/bg-section-bottom-desktop-2.svg" alt="" />
+        <v-col class="filler4 d-none d-md-flex pa-0">
+          <img class="img52" src="/src/assets/bg-section-bottom-desktop-2.svg" alt="" />
+        </v-col>
+        <v-col class="filler4 d-flex d-md-none pa-0">
+          <img class="img52" src="/src/assets/bg-section-bottom-mobile-2.svg" alt="" />
         </v-col>
         <v-col
           class="eight pa-0 d-none d-md-flex flex-column align-center justify-center"
@@ -229,10 +245,17 @@
             <span class="btn22-text">Get Started For Free</span>
           </v-chip>
         </v-col>
-        <v-col class="filler5 pa-0">
+        <v-col class="filler5 d-none d-md-block pa-0">
           <img
             class="img5"
             src="/src/assets/bg-footer-top-desktop.svg"
+            alt=""
+          />
+        </v-col>
+        <v-col class="filler52 d-flex d-md-none pa-0">
+          <img
+            class="img52"
+            src="/src/assets/bg-footer-top-mobile.svg"
             alt=""
           />
         </v-col>
@@ -375,7 +398,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
             </div>
-            <div class="mobile d-flex my-3">
+            <div class="mobile d-flex my-3 mt-10">
               <div class="img11">
                 <img src="/src/assets/icon-phone.svg" alt="" />
               </div>
@@ -583,6 +606,9 @@ const validateEmail = () => {
 .filler1 {
   margin-top: 115px;
 }
+.filler12 {
+  margin-top: 10px;
+}
 .five,
 .seven {
   background-color: #f6fbff;
@@ -603,6 +629,10 @@ const validateEmail = () => {
 }
 .img5 {
   scale: 1.1;
+}
+.img52 {
+  scale: 1;
+  width: 100vw;
 }
 .img6 img {
   width: 81%;
@@ -651,11 +681,14 @@ const validateEmail = () => {
   background-color: #fff;
 }
 .eight2 {
-  margin-top: 120px;
+  margin-top: 80px;
   background-color: #fff;
 }
 .filler5 {
   margin-top: 160px;
+}
+.filler52 {
+  margin-top: 300px;
 }
 .nine {
   padding-top: 57px;
