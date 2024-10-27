@@ -173,7 +173,7 @@
           </v-col>
           <v-col cols="12" class="mt-16 px-5 d-flex flex-column justify-center">
             <div class="heading22 text-center">Flowing Conversations</div>
-            <div class="subheading2 text-center mt-5 mb-10 pr-10">
+            <div class="subheading2 text-center mt-5 mb-10 px-7">
               You wouldn't paginate a conversation in real life, so why do it
               online? Our threads have just-in-time loading for a more natural
               flow.
